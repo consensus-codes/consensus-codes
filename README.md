@@ -1,119 +1,85 @@
 <div align="center">
 
-<img src="https://consensus.codes/icon.png" alt="Consensus" width="88" height="88" />
+<img src="assets/logo.jpg" alt="Consensus" width="110" />
 
-# Consensus
+# CONSENSUS
 
-**Intelligent Learning Platform**
+### Intelligent Learning Platform
 
-[![Live](https://img.shields.io/badge/Live-consensus.codes-E8001F?style=flat-square&logo=vercel&logoColor=white)](https://consensus.codes)
-[![Status](https://img.shields.io/badge/Status-Production-0A7A3E?style=flat-square)](https://consensus.codes)
-[![Stack](https://img.shields.io/badge/Stack-Next.js%20%7C%20Workers%20%7C%20D1-111111?style=flat-square)](https://consensus.codes)
+**A modern LMS for people who take skills seriously.**
 
-[Website](https://consensus.codes) · [Courses](https://consensus.codes/courses) · [Sign up](https://consensus.codes/signup)
+[![Website](https://img.shields.io/badge/consensus.codes-E8001F?style=for-the-badge&logo=google-chrome&logoColor=white)](https://consensus.codes)
+[![Courses](https://img.shields.io/badge/Browse%20Courses-1a1a1a?style=for-the-badge)](https://consensus.codes/courses)
 
-<img src="https://consensus.codes/consensus-social-2026.png" alt="Consensus social banner" width="680" />
+<br/>
+
+<img src="assets/banner.jpg" alt="Consensus banner" width="800" />
 
 </div>
 
 ---
 
-## Overview
+## A better way to learn tech
 
-**Consensus** ([consensus.codes](https://consensus.codes)) is a production learning management system for interactive tech education.
+Consensus is a premium online learning platform designed around one idea:
 
-Learners progress through structured courses, practice in hands-on labs, validate skills with exams, and earn shareable certificates.
+> **You don’t just complete courses — you become capable.**
 
-> **Learn. Build. Reach Consensus.**
-
----
-
-## Product
-
-| Area | What it delivers |
-| :--- | :--- |
-| **Courses** | Modular lessons across Linux, Git, JS/React, Python, DevOps, System Design, and more |
-| **Labs** | Hands-on environments to practice real workflows |
-| **Exams** | Timed assessments and skill checks |
-| **Certificates** | Completion credentials with public verification |
-| **Learning paths** | Guided multi-course skill tracks |
-| **AI assistant** | Course-aware help with credit-based usage |
-| **Admin** | Content, enrollments, special access, orders, and operations |
-
----
-
-## Architecture (high level)
-
-```text
-┌─────────────────────┐     ┌──────────────────────────┐
-│  Next.js frontend   │────▶│  Cloudflare Workers API  │
-│  consensus.codes    │     │  auth · courses · exams  │
-└─────────────────────┘     │  labs · certificates     │
-                            │  chat assistant          │
-                            └────────────┬─────────────┘
-                                         │
-                    ┌────────────────────┼────────────────────┐
-                    ▼                    ▼                    ▼
-                 D1 SQLite              R2 files         Email routing
-               (users, progress)     (assets / certs)   (@consensus.codes)
-```
-
-### Core technologies
-
-- **Frontend:** Next.js, React, TypeScript, Tailwind CSS  
-- **API / edge:** Cloudflare Workers  
-- **Database:** Cloudflare D1  
-- **Storage:** Cloudflare R2  
-- **Email:** Domain routing + transactional delivery  
-- **AI:** Home-tunnel RAG assistant with per-user credits  
-
----
-
-## Featured learning tracks
-
-| Track | Skills |
-| :--- | :--- |
-| Linux | Shell, systems, command-line fluency |
-| Git & GitHub | Source control and collaboration |
-| JavaScript + React | Modern web UI development |
-| Python | Programming and practical automation |
-| DevOps | Delivery, tooling, operations mindset |
-| System Design | Designing scalable applications |
-
-Full catalog: **https://consensus.codes/courses**
-
----
-
-## Public endpoints
-
-| URL | Purpose |
-| :--- | :--- |
-| https://consensus.codes | Homepage |
-| https://consensus.codes/courses | Course catalog |
-| https://consensus.codes/labs | Labs |
-| https://consensus.codes/exams | Exams |
-| https://consensus.codes/learning-paths | Learning paths |
-| https://consensus.codes/certificates | Certificates |
-| https://consensus.codes/verify-certificate | Certificate verification |
-| https://consensus.codes/signup | Create account |
-
----
-
-## Contact
-
-| | |
-| :--- | :--- |
-| Website | https://consensus.codes |
-| Admin | admin@consensus.codes |
-| Manager | manager@consensus.codes |
-| Organization | https://github.com/consensus-codes |
+Every part of the experience is built to take you from understanding → practice → proof.
 
 ---
 
 <div align="center">
+<img src="assets/features.jpg" alt="Platform pillars" width="700" />
+</div>
 
-**Consensus** · Intelligent Learning Platform
+### Four pillars of the platform
 
-<sub>Production platform at [consensus.codes](https://consensus.codes)</sub>
+| Pillar | What it means for you |
+| :--- | :--- |
+| **Courses** | Structured, high-quality lessons that respect your time |
+| **Labs** | Hands-on practice so skills become real |
+| **Exams** | Honest assessment of what you’ve actually learned |
+| **Certificates** | Credentials that reflect genuine completion |
+
+---
+
+## Featured learning areas
+
+<div align="center">
+
+**Linux** · **Git & GitHub** · **JavaScript + React** · **Python** · **DevOps** · **System Design**
+
+</div>
+
+Paths for beginners and builders who want depth — not noise.
+
+→ [Browse courses](https://consensus.codes/courses)
+
+---
+
+## Designed for real progress
+
+- **Clean learning UI** — stay focused on the material  
+- **Self-paced flow** — learn on your schedule  
+- **Guided learning paths** — multi-course journeys with a clear destination  
+- **Progress tracking** — always know where you are  
+- **Shareable achievements** — certificates you can verify and show  
+
+---
+
+## Start learning
+
+<div align="center">
+
+### [Launch Consensus →](https://consensus.codes)
+
+[Create account](https://consensus.codes/signup) · [View courses](https://consensus.codes/courses) · [Explore labs](https://consensus.codes/labs)
+
+<br/>
+
+<img src="assets/logo.jpg" width="48" alt="Consensus" />
+
+**Learn. Build. Reach Consensus.**
 
 </div>
