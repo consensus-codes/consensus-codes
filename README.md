@@ -35,9 +35,9 @@ From first lesson to final credential, every step is designed for real progress.
 
 | | |
 | :---: | :---: |
-| <img src="assets/courses/linux.png" alt="Linux" width="360"/> | <img src="assets/courses/git-github.png" alt="Git & GitHub" width="360"/> |
-| <img src="assets/courses/js-react.png" alt="JavaScript + React" width="360"/> | <img src="assets/courses/python.png" alt="Python" width="360"/> |
-| <img src="assets/courses/devops.png" alt="DevOps" width="360"/> | <img src="assets/courses/system-design.png" alt="System Design" width="360"/> |
+| <a href="https://consensus.codes/courses"><img src="assets/courses/linux.webp" alt="Linux" width="360"/></a> | <a href="https://consensus.codes/courses"><img src="assets/courses/git-and-github.webp" alt="Git and GitHub" width="360"/></a> |
+| <a href="https://consensus.codes/courses"><img src="assets/courses/javascript-react.webp" alt="JavaScript + React" width="360"/></a> | <a href="https://consensus.codes/courses"><img src="assets/courses/python.webp" alt="Python" width="360"/></a> |
+| <a href="https://consensus.codes/courses"><img src="assets/courses/devops.png" alt="DevOps" width="360"/></a> | <a href="https://consensus.codes/courses"><img src="assets/courses/system-design.webp" alt="System Design" width="360"/></a> |
 
 </div>
 
